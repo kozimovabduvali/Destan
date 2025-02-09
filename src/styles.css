@@ -9,6 +9,17 @@
     @apply scroll-smooth
   }
   body {
-    @apply bg-dark text-white font-inter overflow-x-hidden
+    @apply bg-dark text-brand-gray-100 relative font-inter overflow-x-hidden tracking-[-2%]
   }
+}
+
+
+.custom-hover {
+  @apply transition duration-200 hover:opacity-75
+}
+
+
+.card-box::after {
+  content: '';
+  @apply absolute w-full bottom-0 left-0 h-0.5 bg-gradient-to-r from-brand-yellow-400 to-brand-yellow-600
 }

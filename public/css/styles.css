@@ -841,6 +841,9 @@ body{
 .pt-4{
   padding-top: 1rem;
 }
+.pb-8{
+  padding-bottom: 2rem;
+}
 .text-left{
   text-align: left;
 }
@@ -1208,6 +1211,14 @@ body{
     padding-bottom: 2.5rem;
   }
 
+  .lg\:pb-8{
+    padding-bottom: 2rem;
+  }
+
+  .lg\:text-left{
+    text-align: left;
+  }
+
   .lg\:text-2xl\/\[1\.8156rem\]{
     font-size: 1.5rem;
     line-height: 1.8156rem;
@@ -1236,6 +1247,11 @@ body{
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl\/\[2\.7231rem\]{
+    font-size: 2.25rem;
+    line-height: 2.7231rem;
   }
 }
 

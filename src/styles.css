@@ -19,7 +19,7 @@
 }
 
 
-.card-box::after {
+.border-line::after {
   content: '';
   @apply absolute w-full bottom-0 left-0 h-0.5 bg-gradient-to-r from-brand-yellow-400 to-brand-yellow-600
 }

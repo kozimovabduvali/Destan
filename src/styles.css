@@ -23,3 +23,11 @@
   content: '';
   @apply absolute w-full bottom-0 left-0 h-0.5 bg-gradient-to-r from-brand-yellow-400 to-brand-yellow-600
 }
+
+.custom-rounded__left {
+  border-radius: 16px 16px 16px 0;
+}
+
+.custom-rounded__right {
+  border-radius: 16px 16px 0 16px;
+}
